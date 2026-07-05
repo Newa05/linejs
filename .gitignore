@@ -11,3 +11,4 @@ apks/
 *.apk
 *.apkm
 scripts/__pycache__/
+storage.json
