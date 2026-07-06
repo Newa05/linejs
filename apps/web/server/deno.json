@@ -1,0 +1,15 @@
+{
+	"name": "@evex/linejs-web-server",
+	"version": "0.0.0",
+	"exports": {
+		".": "./main.ts"
+	},
+	"imports": {
+		"hono": "jsr:@hono/hono@^4",
+		"hono/deno": "jsr:@hono/hono@^4/deno",
+		"hono/cors": "jsr:@hono/hono@^4/cors"
+	},
+	"tasks": {
+		"dev": "deno run -A main.ts"
+	}
+}

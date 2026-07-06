@@ -1,5 +1,5 @@
 {
-	"workspace": ["./packages/linejs", "./packages/types", "./packages/agent", "./docs"],
+	"workspace": ["./packages/linejs", "./packages/types", "./packages/agent", "./docs", "./apps/web/server"],
 	"fmt": {
 		"singleQuote": false,
 		"useTabs": true,
@@ -31,7 +31,8 @@
 		"apk:extract-thrift": "deno run -A scripts/apk/extract_thrift.ts",
 		"apk:extract-services": "deno run -A scripts/apk/extract_services.ts",
 		"docs:dev": "cd docs && deno task dev",
-		"docs:build": "cd docs && deno task build"
+		"docs:build": "cd docs && deno task build",
+		"web:server": "deno run -A apps/web/server/main.ts"
 	},
 	"unstable": [
 		"byonm"

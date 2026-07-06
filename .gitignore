@@ -12,3 +12,4 @@ apks/
 *.apkm
 scripts/__pycache__/
 storage.json
+apps/web/client/dist

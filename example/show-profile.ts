@@ -26,6 +26,6 @@ for (const chat of chats.slice(0, 15)) {
 
 const friends = await client.fetchUsers();
 console.log(`\nFriends (${friends.length}):`);
-for (const friend of friends.slice(0, 15)) {
+for (const friend of friends) {
 	console.log("-", friend.raw.targetProfileDetail?.profileName ?? friend.mid);
 }

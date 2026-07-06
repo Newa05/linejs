@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+	--color-line-50: #e9fbf1;
+	--color-line-100: #c8f5da;
+	--color-line-200: #93ebb6;
+	--color-line-300: #5cdb92;
+	--color-line-400: #2ecb75;
+	--color-line-500: #06c755;
+	--color-line-600: #05a648;
+	--color-line-700: #05833b;
+	--color-line-800: #05662f;
+	--color-line-900: #044f26;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+}
